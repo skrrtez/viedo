@@ -21,4 +21,4 @@ async def on_message(message):
         msg = 'Cya {0.author.mention} Goodbye, see you later! :wave:'.format (message)
         await client.send_message(message.channel, msg)
 
-client.run(os.getenv('TOKEN;))
+client.run(os.getenv('TOKEN'))
